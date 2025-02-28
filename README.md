@@ -15,10 +15,8 @@ Esta é uma solução para o [desafio do componente QR code no Frontend Mentor](
 ### Built with / Construído com
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
 
 ### O que eu aprendi / What I learned
 
