@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background-color: #d5e1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 320px;
+  background-color: #fff;
+  padding: 1rem 1rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.01),
+    0 20px 20px 0 rgba(0, 0, 0, 0.06);
+}
+
+.card-image {
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
+  width: 288px;
+  border-radius: 10px;
+}
+
+.card-information {
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 25px;
+  width: 288px;
+}
+
+.card-title {
+  font-size: 19px;
+  font-weight: bold;
+  color: #1a1a1a;
+  text-wrap: balance;
+  width: 288px;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 15px;
+  color: #7d889e;
+  width: 256px;
+}
